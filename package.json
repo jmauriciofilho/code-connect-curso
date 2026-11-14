@@ -13,6 +13,7 @@
     "start:prod:api": "pnpm --filter api start:prod",
     "build:api": "pnpm --filter api build",
     "lint:api": "pnpm --filter api lint",
+    "test:web": "pnpm --filter web test",
     "test:api": "pnpm --filter api test",
     "test:e2e:api": "pnpm --filter api test:e2e",
     "build": "pnpm -r build",
